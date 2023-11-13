@@ -101,7 +101,7 @@ section:nth-child(even) {
 }
   
 .btn:hover {
-    background: var(--skyblue-color);
+  background-image: linear-gradient(rgba(0,0,0,0.3) 0 0);
 }
   
   .btn i {
