@@ -40,8 +40,14 @@
             box-sizing: border-box;
 }
 
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Lato', sans-serif;
+    font-size: 1.8rem;
     color: var(--deepnavyblue-color);
 }
 
@@ -49,10 +55,6 @@ body#style-guide {
     padding: 20px;
     margin: 20px;
     height: 100vh;
-}
-
-html {
-    scroll-behavior: smooth;
 }
 
 :target:before {
@@ -65,8 +67,28 @@ a {
     text-decoration: none;
 }
 
+h1 {
+  font-size: 4.8rem;
+}
+
+h2 {
+  font-size: 4rem;
+}
+
+h3 {
+  font-size: 2.6rem;
+}
+
+h4 {
+  font-size: 2.4rem;
+}
+
+h5 {
+  font-size: 2.2rem;
+}
+
 p {
-    font-size: 20px;
+    font-size: 2rem;
   }
 
 section:nth-child(odd) {
@@ -77,7 +99,7 @@ section:nth-child(even) {
 }
 
 .title {
-    font-size: 40px;
+    font-size: 4rem;
     font-weight: 800;
     text-transform: uppercase;
 }
@@ -104,14 +126,10 @@ section:nth-child(even) {
   background-image: linear-gradient(rgba(0,0,0,0.3) 0 0);
 }
   
-  .btn i {
-    padding-left: 1em;
-  }
-  
   .container {
     max-width: 1600px;
     margin: auto;
-    padding: 2em;
+    padding: 3.6rem;
     overflow: hidden;
   }
   
@@ -202,6 +220,7 @@ section:nth-child(even) {
 
 .navbar .logo {
     color: var(--deepnavyblue-color);
+    font-size: 3.2rem;
     font-weight: bold;
     font-style: italic;
 }
@@ -237,12 +256,10 @@ section:nth-child(even) {
 }
 
 #hero .hero-content h1 {
-    font-size: 3em;
     font-weight: bold;
 }
 
 #hero .hero-content p {
-    font-size: 1.5em;
     max-width: 600px;
     margin: 20px 0 30px;
 }
@@ -272,9 +289,9 @@ section:nth-child(even) {
 .about-grid {
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: 1fr 2em 1fr;
+    -ms-grid-columns: 1fr 3.6rem 1fr;
     grid-template-columns: repeat(2,1fr);
-    grid-gap: 2em;
+    grid-gap: 3.6rem;
 }
 
 .about-content {
@@ -295,24 +312,23 @@ section:nth-child(even) {
 }
 
 section h2.home-section-title {
-    font-size: 2.5em;
     font-weight: bold;
     text-align: center;
 }
 
 section p {
-    margin: 20px 0;
+    margin: 2rem 0;
 }
 
 /* Store */
 #store .product-cat-grid {
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: 1fr 0.5em 1fr 0.5em 1fr;
+    -ms-grid-columns: 1fr 0.9rem 1fr 0.9rem 1fr;
     grid-template-columns: repeat(3,1fr);
-    padding: 1.5em 0;
+    padding: 2.7rem 0;
     overflow: hidden;
-    grid-gap: 0.5em;
+    grid-gap: 0.9rem;
 }
 
 #store .product-cat-card {
@@ -336,7 +352,7 @@ section p {
 
 .product-cat-title {
     text-align: center;
-    padding: 1em 0;
+    padding: 1.6rem 0;
     background-color: #fff;
 }
 
@@ -344,15 +360,15 @@ section p {
 
 #services .service-list {
     margin: auto;
-    padding: 1.5em;
+    padding: 2.5rem;
 }
 
 #services .service-list ul {
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: 1fr 1em 1fr;
+    -ms-grid-columns: 1fr 1.8rem 1fr;
     grid-template-columns: repeat(2,1fr);
-    grid-gap: 1em;
+    grid-gap: 1.8rem;
     list-style: none outside;
 }
 
@@ -377,7 +393,7 @@ section p {
 /* Contact */
 
 form label {
-    font-size: 14px;
+    font-size: 1.4rem;
     font-weight: bold;
 }
 
@@ -396,9 +412,9 @@ label.required::before {
 #contact .contact-grid {
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: 1fr 2em 1fr;
+    -ms-grid-columns: 1fr 3.6rem 1fr;
     grid-template-columns: repeat(2,1fr);
-    grid-gap: 2em;
+    grid-gap: 3.6rem;
     background-color: #fff;
     padding: 10px 20px;
     margin: 10px;
@@ -409,16 +425,16 @@ label.required::before {
     padding: 20px 0;
     display: -ms-grid;
     display: grid;
-            grid-template-areas: 
+    grid-template-areas: 
     'firstname lastname'
     'phone email'
     'subject subject'
     'message message'
     'submit submit'
     ;
-    -webkit-column-gap: 0.6em;
-       -moz-column-gap: 0.6em;
-            column-gap: 0.6em;
+    -webkit-column-gap: 1rem;
+       -moz-column-gap: 1rem;
+            column-gap: 1rem;
 }
 
 .contact-form .firstname {
@@ -525,8 +541,8 @@ label.required::before {
 
 #contact .contact-info .trading-hours ul {
     list-style: none;
-    padding-left: 1.5em;
-    line-height: 1.5em;
+    padding-left: 2.5rem;
+    line-height: 2.5rem;
     -webkit-transform: translateY(-12%);
         -ms-transform: translateY(-12%);
             transform: translateY(-12%);
@@ -542,7 +558,7 @@ footer {
 }
 
 footer > * {
-    font-size: 12px!important;
+    font-size: 1.2rem!important;
 }
 
 /* style guide */
@@ -579,7 +595,7 @@ footer > * {
   figcaption {
     background-color: var(--grey-color);
     color: #fff;
-    font: italic 12px sans-serif;
+    font: italic 1.2rem sans-serif;
     padding: 3px;
     text-align: center;
 }
@@ -647,15 +663,13 @@ footer > * {
 
 /* tablet responsive */
 @media (max-width: 768px) {
-    .navbar .logo {
-      font-size: 2em;
-    }
+
     .home-section-title {
-      font-size: 2em!important;
+      font-size: 3.2rem!important;
     }
   
     p {
-      font-size: 18px;
+      font-size: 1.8rem;
     }
   
     #hero {
@@ -703,18 +717,26 @@ footer > * {
   /* mobile responsive */
   
   @media (max-width: 600px) {
+
+    .container {
+      padding: 1.8rem;
+    }
+
+    .navbar .logo {
+      font-size: 2.5rem;
+    }
   
-    p {
-      font-size: 16px;
+    p, li {
+      font-size: 1.6rem;
     }
   
     .navbar ul a {
       padding: 0 5px;
-      font-size: 0.85em;
+      font-size: 1.4rem;
     }
    
     .home-section-title {
-      font-size: 1.5em!important;
+      font-size: 2.8rem!important;
     }
   
     #hero .hero-content {
@@ -724,11 +746,15 @@ footer > * {
   }
   
     #hero .hero-content h1 {
-      font-size: 2.2em!important;
+      font-size: 4rem!important;
     }
     .about-grid {
       -ms-grid-columns: 1fr;
       grid-template-columns: repeat(1, 1fr);
+    }
+
+    #hero {
+      height: 400px;
     }
   
     #store .product-cat-grid {
@@ -739,8 +765,12 @@ footer > * {
     #store .product-cat-card {
       width: 95%;
     }
-    #store .product-cat-title {
-      font-size: 0.85em;
+    #store .product-cat-title h3 {
+      font-size: 2rem!important;
+    }
+
+    #services .service-list {
+      padding: 1.8rem;
     }
   
     #services .service-list ul {
