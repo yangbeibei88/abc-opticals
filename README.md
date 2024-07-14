@@ -4,9 +4,15 @@
 This project is about developing a one-page brochure website for ABC Optical, a business located in Brisbane, who sells ophthalmic glasses and provide eye examinations/assessments for children.
 
 ## Built With
-This project is built with Vanilla HTML and CSS. No frameworks or libraries are used.
+This project is built with HTML and CSS.
 - HTML
 - CSS
+
+## Live Demo
+
+Check out the live site [ABC Optical](https://yangbeibei88.github.io/tafe-0060-AT2-abc-optical/).
+
+[![ABC Optical](screenshot.png)](https://yangbeibei88.github.io/tafe-0060-AT2-abc-optical/)
 
 ## Features
 - Each nav menu item is linked to corresponding section
@@ -20,7 +26,7 @@ This project is built with Vanilla HTML and CSS. No frameworks or libraries are 
 - browser/device compatibility tested.
 
 ## License
-TAFE Queensland ICTWEB519_520_AT2
+See LICENSE.md for more information.
 
 ## Contact
-- Beibei Yang (474326484), beibeiyang88@hotmail.com
+- Beibei Yang (474326484), [beibeiyang88@hotmail.com](mailto:beibeiyang88@hotmail.com)
