@@ -26,7 +26,7 @@ Check out the live site [ABC Optical](https://yangbeibei88.github.io/tafe-0060-A
 - browser/device compatibility tested.
 
 ## License
-See LICENSE.md for more information.
+The project is licensed under [Apache license 2.0](https://www.apache.org/licenses/LICENSE-2.0.txt).
 
 ## Contact
-- Beibei Yang (474326484), [beibeiyang88@hotmail.com](mailto:beibeiyang88@hotmail.com)
+- Beibei Yang, [beibeiyang88@hotmail.com](mailto:beibeiyang88@hotmail.com)
